@@ -8,5 +8,8 @@ section .police2 {
 	font-family:Lucida Console
 }
 .property_name {
-	color:#0F0;	
+	color:#EEE;	
+}
+.alt .property_name {
+	color:#000;	
 }
