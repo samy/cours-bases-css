@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/theme/cours.css" id="theme">
 	<!-- For syntax highlighting -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 <div class="reveal">
@@ -38,19 +39,48 @@
 					<li>"Cascading Style Sheets"</li>
 					<li>Ensemble de styles d'affichage</li>
                     <li>Elles sont cumulatives</li>
+                    <li>Les styles sont définis globalement</li>
 				</ul>
 			</p>
 		</section>
         <section>
-			<h1>Les CSS, à quoi ca sert ?</h1>
+			<h1>Les CSS, à quoi ca sert?</h1>
 			<p>
 				<ul>
-					<li>On peut <span style="transform:rotate(20deg);display:inline-block;color:#0FF;font-family:'Times New Roman', Times, serif">habiller</span> du HTML</li>
-					<li>Ca sen</li>
-                    <li>Elles sont cumulatives</li>
+					<li>Comparable aux styles d'un traitement de texte</li>
+                    <li>On peut <span class="lien_habiller">habiller</span> du HTML</li>
+                    <li>On peut même <span style="opacity:0.10">masquer</span> des éléments</li>
 				</ul>
 			</p>
 		</section>
+         <section>
+             <section>
+                <h1>Les grandes familles de propriétés CSS</h1>
+                <p>&nbsp;</p>
+                <p><small>Source : <a href="http://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-proprietes-css">OpenClassrooms</a></small></p>
+            </section>
+            <section>
+                <h1>Mise en forme du texte</h1>
+            </section>
+            <section id="texte1">
+                <h1>Texte (1/2)</h1>
+                <br />
+				<p class="fragment"><span class="property_name">font-family :</span> <span class="police1">Comic Sans MS</span> <span class="police2">Lucida Console</span></p>
+				<p class="fragment"><span class="property_name">font-size </span>: <span style="font-size:80%">28px</span> <span style="font-size:120%">43px</span></p>
+                <p class="fragment"><span class="property_name">font-weight :</span> <span style="font-weight:normal">normal</span> <span style="font-weight:bold">bold</span></p>
+                <p class="fragment"><span class="property_name">font-style </span>: <span style="font-style:normal">normal</span> <span style="font-style:italic">italic</span></p>
+                <p class="fragment"><span class="property_name">font-variant :</span> <span style="font-variant:normal">normal</span> <span style="font-variant:small-caps">small-caps</span></p>
+            </section>
+            <section id="texte2">
+                <h1>Texte (2/2)</h1>
+                <br />
+				<p class="fragment" style="text-align:right"><span class="property_name">text-align :</span> left center right</p>
+				<p class="fragment"><span class="property_name">vertical-align : </span>: <span style="vertical-align:bottom">middle</span> <span style="vertical-align:top">super</span></p>
+                <p class="fragment" style="line-height:300%"><span class="property_name">line-height :</span> 200%</p>
+                <p class="fragment" style="text-indent:200px"><span class="property_name">text-indent </span>: 200px</p>
+                <p class="fragment"><span class="property_name">text-shadow :</span> <span style="text-shadow:5px 5px 5px #FFF">ombre portée</span></p>
+            </section>
+        </section>
         <section>
         	<h1>Les CSS ca peut être fun !</h1>
             <p><a href="http://pleaseresize.me/"><img src="img/brief_history_of_fluidity_in_webdesign.png" alt="A brief history of fluidity in webdesign" /></a></p>
