@@ -13,3 +13,8 @@ section .police2 {
 .alt .property_name {
 	color:#000;	
 }
+.fireworks img {
+	border:none !important;
+	box-shadow:none !important;
+	background:none !important;
+}
