@@ -45,7 +45,7 @@
 			</p>
 		</section>
         <section>
-			<h1>Les CSS, à quoi ca sert?</h1>
+			<h1>A quoi ca sert?</h1>
 			<p>
 				<ul>
 					<li>Comparable aux styles d'un traitement de texte</li>
@@ -53,6 +53,17 @@
                     <li>On peut même <span style="opacity:0.10">masquer</span> des éléments</li>
 				</ul>
 			</p>
+		</section>
+        <section>
+			<h1>A quoi ca ressemble ?</h1>
+			<pre><code class="html"><div class="toto">tutu</div>
+<div id="titi">tata</div></code></pre>
+            <pre><code class="css">.toto {
+  color:Green;
+}
+#titi {
+  color:Blue
+}</code></pre>
 		</section>
          <section>
              <section>
@@ -164,6 +175,15 @@
             <section>
                 <h1>Le vrai responsive</h1>
                 <p>On affiche/cache des éléments selon l'écran</p>
+			</section>
+             <section>
+                <h1>Comment ?</h1>
+                <p>Via les "media queries"</p>
+                <pre><code class="css">@media screen and (max-width: 640px) {
+  .bloc {
+    color:Red
+  }
+}</code></pre>
 			</section>
 		</section>
 		</section>
