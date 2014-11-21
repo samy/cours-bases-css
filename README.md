@@ -1,4 +1,4 @@
-cours-bases-html
+cours-bases-css
 ================
 
 Le présent dépot contient les éléments du cours "bases du CSS" à destination d'étudiants en BAC+5 Marketing de l'IDRAC (Lyon)
